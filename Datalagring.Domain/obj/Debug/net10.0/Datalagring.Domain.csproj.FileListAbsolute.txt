@@ -1,0 +1,12 @@
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Domain/bin/Debug/net10.0/Datalagring.Domain.deps.json
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Domain/bin/Debug/net10.0/Datalagring.Domain.dll
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Domain/bin/Debug/net10.0/Datalagring.Domain.pdb
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Domain/obj/Debug/net10.0/Datalagring.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Domain/obj/Debug/net10.0/Datalagring.Domain.AssemblyInfoInputs.cache
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Domain/obj/Debug/net10.0/Datalagring.Domain.AssemblyInfo.cs
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Domain/obj/Debug/net10.0/Datalagring.Domain.csproj.CoreCompileInputs.cache
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Domain/obj/Debug/net10.0/Datalagring.Domain.sourcelink.json
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Domain/obj/Debug/net10.0/Datalagring.Domain.dll
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Domain/obj/Debug/net10.0/refint/Datalagring.Domain.dll
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Domain/obj/Debug/net10.0/Datalagring.Domain.pdb
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Domain/obj/Debug/net10.0/ref/Datalagring.Domain.dll

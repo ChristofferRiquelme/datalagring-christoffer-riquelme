@@ -1,0 +1,16 @@
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/bin/Debug/net10.0/Datalagring.Application.deps.json
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/bin/Debug/net10.0/Datalagring.Application.dll
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/bin/Debug/net10.0/Datalagring.Application.pdb
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/bin/Debug/net10.0/Datalagring.Domain.dll
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/bin/Debug/net10.0/Datalagring.Domain.pdb
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/obj/Debug/net10.0/Datalagring.Application.csproj.AssemblyReference.cache
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/obj/Debug/net10.0/Datalagring.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/obj/Debug/net10.0/Datalagring.Application.AssemblyInfoInputs.cache
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/obj/Debug/net10.0/Datalagring.Application.AssemblyInfo.cs
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/obj/Debug/net10.0/Datalagring.Application.csproj.CoreCompileInputs.cache
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/obj/Debug/net10.0/Datalagring.Application.sourcelink.json
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/obj/Debug/net10.0/Datalagr.62549C9E.Up2Date
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/obj/Debug/net10.0/Datalagring.Application.dll
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/obj/Debug/net10.0/refint/Datalagring.Application.dll
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/obj/Debug/net10.0/Datalagring.Application.pdb
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/obj/Debug/net10.0/ref/Datalagring.Application.dll
