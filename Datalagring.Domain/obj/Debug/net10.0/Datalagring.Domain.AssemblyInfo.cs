@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Datalagring.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+219835ccfa363592ed796fd5c4b738e4c5576905")]
 [assembly: System.Reflection.AssemblyProductAttribute("Datalagring.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Datalagring.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
