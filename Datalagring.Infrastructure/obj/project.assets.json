@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Datalagring.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Datalagring.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Datalagring.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Datalagring.Application.dll": {}
+        }
+      },
+      "Datalagring.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Datalagring.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Datalagring.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Datalagring.Application/1.0.0": {
+      "type": "project",
+      "path": "../Datalagring.Application/Datalagring.Application.csproj",
+      "msbuildProject": "../Datalagring.Application/Datalagring.Application.csproj"
+    },
+    "Datalagring.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Datalagring.Domain/Datalagring.Domain.csproj",
+      "msbuildProject": "../Datalagring.Domain/Datalagring.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Datalagring.Application >= 1.0.0",
+      "Datalagring.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/christoffer/.nuget/packages/": {}
@@ -31,7 +69,14 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/Datalagring.Application.csproj": {
+              "projectPath": "/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/Datalagring.Application.csproj"
+            },
+            "/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Domain/Datalagring.Domain.csproj": {
+              "projectPath": "/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Domain/Datalagring.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

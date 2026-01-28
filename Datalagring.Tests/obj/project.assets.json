@@ -393,6 +393,29 @@
         "build": {
           "build/net8.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Datalagring.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Datalagring.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Datalagring.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Datalagring.Application.dll": {}
+        }
+      },
+      "Datalagring.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Datalagring.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Datalagring.Domain.dll": {}
+        }
       }
     }
   },
@@ -903,10 +926,21 @@
         "xunit.runner.visualstudio.3.1.4.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Datalagring.Application/1.0.0": {
+      "type": "project",
+      "path": "../Datalagring.Application/Datalagring.Application.csproj",
+      "msbuildProject": "../Datalagring.Application/Datalagring.Application.csproj"
+    },
+    "Datalagring.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Datalagring.Domain/Datalagring.Domain.csproj",
+      "msbuildProject": "../Datalagring.Domain/Datalagring.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Datalagring.Application >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.14.1",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.3",
@@ -937,7 +971,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/Datalagring.Application.csproj": {
+              "projectPath": "/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Application/Datalagring.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
