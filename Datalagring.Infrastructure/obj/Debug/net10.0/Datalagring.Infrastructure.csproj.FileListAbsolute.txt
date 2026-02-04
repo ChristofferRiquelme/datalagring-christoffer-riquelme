@@ -16,3 +16,5 @@
 /Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Infrastructure/obj/Debug/net10.0/refint/Datalagring.Infrastructure.dll
 /Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Infrastructure/obj/Debug/net10.0/Datalagring.Infrastructure.pdb
 /Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Infrastructure/obj/Debug/net10.0/ref/Datalagring.Infrastructure.dll
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Infrastructure/bin/Debug/net10.0/Datalagring.Infrastructure.runtimeconfig.json
+/Users/christoffer/Sites/ecutbildning/datalagring_project/Datalagring.Infrastructure/obj/Debug/net10.0/Datalagring.Infrastructure.genruntimeconfig.cache
