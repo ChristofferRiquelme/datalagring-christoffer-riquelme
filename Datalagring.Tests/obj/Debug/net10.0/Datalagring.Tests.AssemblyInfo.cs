@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Datalagring.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f075fb9ceacda9cebbef241544e137ed2c260aa8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+568a6bc46b7736ff72a827b58a8aa614be9d2ac6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Datalagring.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Datalagring.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
