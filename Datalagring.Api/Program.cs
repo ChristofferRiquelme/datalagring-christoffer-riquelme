@@ -1,3 +1,4 @@
+using Datalagring.Api.Endpoints;
 using Datalagring.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,5 +11,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 );
 
 var app = builder.Build();
+
+app.MapCourseEndpoints();
 
 app.Run();
