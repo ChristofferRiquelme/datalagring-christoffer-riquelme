@@ -27,6 +27,19 @@ public static class CourseEndpoints
 
             return Results.Created($"/courses/{course.Id}", course);
         });
+
+        app.MapDelete("/courses/{id}", async (Guid id, ApplicationDbContext db) =>
+{
+            var course = await db.Courses.FindAsync(id);
+
+            if (course is null)
+                return Results.NotFound();
+
+            db.Courses.Remove(course);
+            await db.SaveChangesAsync();
+
+            return Results.NoContent();
+        });
     }
 }
 
