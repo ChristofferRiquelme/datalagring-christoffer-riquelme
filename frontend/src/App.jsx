@@ -35,6 +35,23 @@ function App() {
     }
   };
 
+  const updateCourse = async (id, updatedCourse) => {
+    const response = await fetch(`http://localhost:5004/courses/${id}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ 
+        Title: updatedCourse.title, 
+        Description: updatedCourse.description 
+      })
+    });
+
+    if (response.ok) {
+      setCourses(prev =>
+        prev.map(c => (c.id === id ? { ...c, ...updatedCourse } : c))
+      );
+    }
+};
+
 return (
   <div className={styles.page}>
     <div className={styles.container}>
@@ -43,6 +60,7 @@ return (
       <CourseList
         courses={courses}
         onDelete={deleteCourse}
+        onUpdate={updateCourse}
       />
 
       <AddCourseForm

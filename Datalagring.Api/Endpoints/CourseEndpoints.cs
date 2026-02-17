@@ -28,6 +28,21 @@ public static class CourseEndpoints
             return Results.Created($"/courses/{course.Id}", course);
         });
 
+        app.MapPut("/courses/{id:guid}", async (Guid id, UpdateCourseRequest request, ApplicationDbContext db) =>
+        {
+            var course = await db.Courses.FindAsync(id);
+
+            if (course is null)
+                return Results.NotFound();
+
+            course.Title = request.Title;
+            course.Description = request.Description;
+
+            await db.SaveChangesAsync();
+
+            return Results.NoContent();
+        });
+
         app.MapDelete("/courses/{id}", async (Guid id, ApplicationDbContext db) =>
 {
             var course = await db.Courses.FindAsync(id);
@@ -44,3 +59,5 @@ public static class CourseEndpoints
 }
 
 public record CreateCourseRequest(string Title, string Description);
+
+public record UpdateCourseRequest(string Title, string Description);

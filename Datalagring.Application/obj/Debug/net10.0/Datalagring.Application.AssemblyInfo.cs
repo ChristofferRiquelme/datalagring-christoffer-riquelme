@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Datalagring.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f8cfedac6d7cb40b84308e57fcde540e2fa50b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+faf64e879f8fcc9115728e0fa69f3fd03bb8af89")]
 [assembly: System.Reflection.AssemblyProductAttribute("Datalagring.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Datalagring.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
