@@ -1,8 +1,9 @@
 import CourseItem from "./CourseItem";
+import styles from "./CourseList.module.css";
 
 function CourseList({ courses, onDelete }) {
   return (
-    <ul>
+    <ul className={styles.list}>
       {courses.map(course => (
         <CourseItem
           key={course.id}

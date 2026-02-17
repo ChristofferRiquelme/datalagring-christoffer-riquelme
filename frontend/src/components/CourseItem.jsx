@@ -1,9 +1,17 @@
+import styles from "./CourseItem.module.css";
+
 function CourseItem({ course, onDelete }) {
   return (
-    <li>
-      {course.title} - {course.description}
-      <button onClick={() => onDelete(course.id)}>
-        ❌
+    <li className={styles.item}>
+      <span>
+        {course.title} - {course.description}
+      </span>
+
+      <button
+        className={styles.deleteButton}
+        onClick={() => onDelete(course.id)}
+      >
+        Ta bort
       </button>
     </li>
   );

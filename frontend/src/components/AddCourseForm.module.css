@@ -1,0 +1,29 @@
+.formContainer {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #3d6f52;
+  border-radius: 10px;
+}
+
+.input {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+}
+
+.button {
+  background-color: #2f9e44;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  background-color: #2b8a3e;
+}

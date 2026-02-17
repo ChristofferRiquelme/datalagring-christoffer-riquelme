@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: #4a8fd4;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.item:hover {
+  background-color: #446484;
+}
+
+.deleteButton {
+  background-color: #e03131;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.deleteButton:hover {
+  background-color: #c92a2a;
+}

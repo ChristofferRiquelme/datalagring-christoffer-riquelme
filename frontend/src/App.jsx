@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import CourseList from "./components/CourseList";
 import AddCourseForm from "./components/AddCourseForm";
+import styles from "./App.module.css";
 
 function App() {
   const [courses, setCourses] = useState([]);
@@ -34,9 +35,10 @@ function App() {
     }
   };
 
-  return (
-    <div>
-      <h1>Kurser</h1>
+return (
+  <div className={styles.page}>
+    <div className={styles.container}>
+      <h1 className={styles.title}>📚 Kurser</h1>
 
       <CourseList
         courses={courses}
@@ -46,8 +48,9 @@ function App() {
       <AddCourseForm
         onAdd={addCourse}
       />
-    </div>
-  );
+  </div>
+  </div>
+);
 }
 
 export default App;
