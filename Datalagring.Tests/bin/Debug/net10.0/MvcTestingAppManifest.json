@@ -1,0 +1,6 @@
+{
+  "Datalagring.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/christoffer\/Sites\/ecutbildning\/datalagring_project\/Datalagring.Api",
+  "Datalagring.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/christoffer\/Sites\/ecutbildning\/datalagring_project\/Datalagring.Application",
+  "Datalagring.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/christoffer\/Sites\/ecutbildning\/datalagring_project\/Datalagring.Domain",
+  "Datalagring.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/christoffer\/Sites\/ecutbildning\/datalagring_project\/Datalagring.Infrastructure"
+}

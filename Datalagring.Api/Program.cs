@@ -27,3 +27,5 @@ app.UseCors("AllowFrontend");
 app.MapCourseEndpoints();
 
 app.Run();
+
+public partial class Program { }
