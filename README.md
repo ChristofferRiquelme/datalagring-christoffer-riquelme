@@ -9,11 +9,24 @@ Detta projekt är en fullstack-applikation byggd med:
 	•	React (Vite)
 	•	xUnit för testning
 
-Applikationen hanterar kurser och möjliggör:
-	•	Skapa kurs
-	•	Hämta kurser
-	•	Uppdatera kurs
-	•	Ta bort kurs
+Applikationen hanterar kurser, lärare och kurstillfällen och möjliggör:
+	•	Kurser
+	• Skapa kurs
+	• Hämta kurser
+	• Uppdatera kurs
+	• Ta bort kurs
+
+	•	Lärare
+	• Skapa lärare
+	• Hämta lärare
+	• Uppdatera lärare
+	• Ta bort lärare
+
+	•	Kurstillfällen
+	• Skapa kurstillfälle (välj kurs och lärare, samt start- och slutdatum)
+	• Hämta kurstillfällen
+	• Uppdatera kurstillfälle
+	• Ta bort kurstillfälle
 
 Projektet är uppbyggt enligt en lagerindelad arkitektur:
 	•	Domain – Entiteter och affärslogik
@@ -62,7 +75,7 @@ npm install
 npm run dev
 
 Frontend körs på:
-http://localhost:5174
+http://localhost:5173
 
 CORS är konfigurerat för att tillåta kommunikation mellan frontend och backend.
 
