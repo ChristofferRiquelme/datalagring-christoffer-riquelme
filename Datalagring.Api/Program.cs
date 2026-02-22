@@ -25,6 +25,8 @@ var app = builder.Build();
 app.UseCors("AllowFrontend");
 
 app.MapCourseEndpoints();
+app.MapTeacherEndpoints();
+app.MapStudentEndpoints();
 
 app.Run();
 

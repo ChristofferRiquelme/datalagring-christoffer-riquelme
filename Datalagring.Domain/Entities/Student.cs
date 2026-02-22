@@ -20,4 +20,11 @@ public class Student
         LastName = lastName;
         Email = email;
     }
+
+    public void Update(string firstName, string lastName, string email)
+{
+    FirstName = firstName;
+    LastName = lastName;
+    Email = email;
+}
 }
