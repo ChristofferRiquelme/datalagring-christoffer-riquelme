@@ -27,6 +27,7 @@ app.UseCors("AllowFrontend");
 app.MapCourseEndpoints();
 app.MapTeacherEndpoints();
 app.MapStudentEndpoints();
+app.MapCourseOccasionEndpoints();
 
 app.Run();
 
